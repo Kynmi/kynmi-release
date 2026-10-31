@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./icon.png" width="96" height="96" alt="Kynmi 图标" />
+    <img src="./icon.png?v=0.3.0" width="96" height="96" alt="Kynmi 奶油杏桃色垂耳兔图标" />
 </p>
 
 <h1 align="center">Kynmi · 知言</h1>
