@@ -1,13 +1,13 @@
 {
-    "version": "0.3.5",
-    "notes": "# Kynmi 0.3.5\n\n调整左上角窗口按钮的对齐。\n\n- 红、黄、绿三个 macOS 窗口控制按钮下移 6px，与顶部“更新”按钮垂直居中对齐。\n- 保留“更新”按钮的位置、大小和间距，在默认窗口与最小窗口中保持一致。\n\nv0.3.4 用户可在应用顶部点击“更新”，后台下载完成后选择“重启以更新”。v0.3.3 或更早版本请下载 DMG 手动安装。\n\n升级后沿用现有会话、背景、草稿与本地凭据。\n\n系统要求：macOS 13.3 或更新版本，Apple Silicon。\n\n打开 DMG，将 Kynmi 拖入“应用程序”文件夹。手动安装前请先退出旧版本。\n\n安装包使用 Developer ID 签名并通过 Apple 公证。下载后可运行 `shasum -a 256 -c SHA256SUMS` 校验文件。更新归档仅供应用内更新使用。\n",
-    "pub_date": "2026-10-31T08:58:37.759Z",
+    "version": "0.3.6",
+    "notes": "# Kynmi 0.3.6\n\n更新入口按需出现，准备就绪后只提醒一次。\n\n- 顶部“更新”按钮不再常显，只有发现新版后才出现；下载时仍在原位置显示环形进度。\n- 启动后静默检查一次，保留 macOS 菜单中的“Kynmi → 检查更新…”。没有新版或自动检查失败时不打扰你。\n- 准备就绪后，每个版本只自动提示一次，等待设置关闭、生成与保存结束后再显示；退出重开也不会反复提示，仍可主动点击更新按钮或菜单打开。\n- 确认弹窗仅保留图标、版本、日期和“稍后／重启以更新”，不再显示更新说明与额外解释。\n\nv0.3.4、v0.3.5 用户可在应用顶部点击“更新”，下载完成后选择“重启以更新”。v0.3.3 或更早版本请下载 DMG 手动安装。\n\n升级后沿用现有会话、背景、草稿与本地凭据。\n\n系统要求：macOS 13.3 或更新版本，Apple Silicon。\n\n打开 DMG，将 Kynmi 拖入“应用程序”文件夹。手动安装前请先退出旧版本。\n\n安装包使用 Developer ID 签名并通过 Apple 公证。下载后可运行 `shasum -a 256 -c SHA256SUMS` 校验文件。更新归档仅供应用内更新使用。\n",
+    "pub_date": "2026-10-31T12:25:19.764Z",
     "platforms": {
         "darwin-aarch64": {
-            "url": "https://github.com/Kynmi/kynmi-release/releases/download/v0.3.5/Kynmi-0.3.5-mac-arm64.app.tar.gz",
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRelM1RE1TSTB0VlZVbHBCTHBuTHdFcS9sZ2xzWGZ4Zmw3d2RHZTRtR0d5QlYyQ05YTkR3QitpVHk4RmsrMGRtN0hJTXp2NEt2c3JUTm9pWjFvblNBRDB4eEx3Mk55dkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDM3MTE3CWZpbGU6S3lubWktMC4zLjUtbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNQorbmJHNDBWWHVnUDFZamc3OTRpZTNUQlEyQVZVTDA0bElHK0tjS01BQzUwRTA2K1BIM0ZuTlB0R29ueFBqcW5DVkkyR01VK05WVFRuM28xYXYybDVDdz09Cg==",
-            "size": 6853626,
-            "sha256": "f75d07657913b8ab893b0dd1b42b1ba5bade62a087acbad2f769f0478362ca0b"
+            "url": "https://github.com/Kynmi/kynmi-release/releases/download/v0.3.6/Kynmi-0.3.6-mac-arm64.app.tar.gz",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRelM1RE1TSTB0VlV2WEZJSTlhOXRYZm9EMXdUelUxbXZqUG55KzFPSm9iV2ZMbGRhR3FJai8vVlVMTDZFQVZWZEVWaGZyUVJPa2hGdEJuTHlVeHc3N1hCZzhncWNDaUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQ5NTE5CWZpbGU6S3lubWktMC4zLjYtbWFjLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuNgptaVEvR0kzVEhrT0srZXBtRzFuOXFha2I0ODN3YWl6VjJtUFlWd2FnQVA2V3Faa05HaWc0UkpPV1BseEhRN2k1eHBLN0d2d2x0dlBpUjlLUUk2SDNDdz09Cg==",
+            "size": 6854076,
+            "sha256": "f000eede73134e4a27d91ca730aee4ce2734f9ddba332bd0cbf5685c05399a5d"
         }
     }
 }
